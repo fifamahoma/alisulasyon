@@ -128,7 +128,7 @@ section{
     position: relative;
     display: flex; margin: 10px auto;
     top: 1rem;
-    width: 20vw;
+    width: 200px;
     border-radius: 50%;
     box-shadow: 0 0 50px var(--main-color);
     cursor: pointer;
