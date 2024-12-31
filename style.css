@@ -443,9 +443,9 @@ section{
         font-size: 55%;
     }
     .services-container{
-        padding-bottom: 7rem;
-        grid-template-columns: repeat(2.1fr);
-        margin: 0 5rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
     }
 }
 @media(max-width:991px){
@@ -457,6 +457,7 @@ section{
     }
     .services{
         padding-bottom: 7rem;
+        
     }
     .footer{
         padding: 1rem 3%;
@@ -518,6 +519,8 @@ section{
         margin-bottom: 3rem;
     }
     .services-container{
-        grid-template-columns: repeat(1,1fr);
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
     }
 }
