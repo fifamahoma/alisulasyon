@@ -35,7 +35,7 @@ body{
     left: 0;
     width: 100%;
     padding: 1.5rem;
-    background: rgba(0,0,0,0.1) ;
+    background: rgba(0,0,0,0.7) ;
     backdrop-filter: blur(20px);
     justify-content: space-between;
     align-items: center;
@@ -293,12 +293,12 @@ section{
   .container .box{
     position: relative;
     max-width: 400px;
-    max-height: 400px;
+    max-height: 300px;
     padding: 10px;
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
     box-shadow:0 15px 25px rgba(0,0,0,.1);
-    border-radius:3rem;
-    margin: 6px;
+    border-radius:1rem;
+    margin: 3px;
     color: var(--bg-color);
     box-sizing: border-box;
     overflow: hidden;
