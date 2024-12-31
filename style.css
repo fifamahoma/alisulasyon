@@ -298,7 +298,7 @@ section{
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
     box-shadow:0 15px 25px rgba(0,0,0,.1);
     border-radius:3rem;
-    margin:10px;
+    margin: 6px;
     color: var(--bg-color);
     box-sizing: border-box;
     overflow: hidden;
@@ -317,8 +317,8 @@ section{
     text-align: center;}
 
     .container .box .content img{
-        width: 70px;
-        height: 70px;
+        width: 5rem;
+        height: 5rem;
         border-radius: 50%;
     }
   
@@ -331,15 +331,15 @@ section{
     color:#04040a;}
 
   .container .box .content h3{
-    font-size: 2.5rem;
-    margin: 8px 0;
+    font-size: 2rem;
+    margin: 6px 0;
     padding: 0;
     text-align: center;}
 
   .container .box .content p{
     font-size: 1.5rem;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     text-align: center;}
 
   .container .box .content a{
@@ -351,7 +351,7 @@ section{
     color: white;
     font-weight:500;
     font-size: 1.8rem;
-    margin-top:15px;
+    margin-top:10px;
     box-shadow: 5px 2px 5px rgba(0,0,0,.2);
     border: 1px solid rgb(235, 163, 250);}
 
