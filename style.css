@@ -34,7 +34,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 3rem;
+    padding: 1.5rem;
     background: rgba(0,0,0,0.3) ;
     backdrop-filter: blur(10px);
     justify-content: space-between;
@@ -101,8 +101,8 @@ section{
 .home-content h2{
     margin-left: 1rem;
     
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     font-size: 3rem;
     box-sizing: border-box;
 
@@ -116,20 +116,21 @@ section{
     
     color: var(--main-color);
     text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
     font-size: 6rem;
+    font-weight: 600;
 }
 .home-content h1{
     color: var(--main-color);
     text-align: center;
-    font-size: 10rem;
-    font-weight: 700;
+    font-size: 6rem;
+    font-weight: 600;
     margin-top: 4.5rem;
     line-height: 1;
 }
 .home-img{
-    margin-top: 10rem;
+    margin-top: 1rem;
     border-radius: 50%;
 }
 .home-img img{
@@ -147,13 +148,34 @@ section{
                 0 0 150px var(--main-color)            
 }
 
+.btn{
+    display: inline-block;
+    margin: 1rem 1.5rem 0 0;
+    padding: 1.2rem 3.6rem;
+    background: var(--main-color);
+    border-radius: 7.5rem;
+    font-size: 1.8rem;
+    color: #151515;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
 .social-icons{
     text-align: center;
+    padding-top: 1rem;
     padding-bottom: 5rem;
     color: var(--second-bg-color);
 }
 
 .social-icons a{
+    margin-top: 0.5rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -189,24 +211,7 @@ section{
     margin: 3rem 4.5rem 1rem 0;
     transition: 0.3s ease-in-out;
 }
-.btn{
-    display: inline-block;
-    margin: 1rem 1.5rem 0 0;
-    padding: 1.2rem 3.6rem;
-    background: var(--main-color);
-    border-radius: 7.5rem;
-    font-size: 2rem;
-    color: #151515;
-    border: 2px solid transparent;
-    letter-spacing: 0.1rem;
-    font-weight: 600;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-}
-.btn:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 25px var(--main-color);
-}
+
 
 .home-content .typewriter ol li{
     animation: slide calc(3*3*2s) steps(3) infinite;
