@@ -35,8 +35,8 @@ body{
     left: 0;
     width: 100%;
     padding: 1.5rem;
-    background: rgba(0,0,0,0.3) ;
-    backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.1) ;
+    backdrop-filter: blur(20px);
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -288,18 +288,17 @@ section{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 0,5rem;
-    flex-wrap:wrap;
     justify-content:center;}
   
   .container .box{
-    position:relative;
+    position: relative;
     max-width: 400px;
-    max-height: 500px;
-    padding: 30px;
+    max-height: 400px;
+    padding: 10px;
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
     box-shadow:0 15px 25px rgba(0,0,0,.1);
-    border-radius:6rem;
-    margin:15px;
+    border-radius:3rem;
+    margin:10px;
     color: var(--bg-color);
     box-sizing: border-box;
     overflow: hidden;
@@ -318,8 +317,8 @@ section{
     text-align: center;}
 
     .container .box .content img{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         border-radius: 50%;
     }
   
@@ -329,11 +328,11 @@ section{
     transition: 1.5s;}
 
   .container .box:hover .content{
-    color:#fff;}
+    color:#04040a;}
 
   .container .box .content h3{
-    font-size: 2.7rem;
-    margin:10px 0;
+    font-size: 2.5rem;
+    margin: 8px 0;
     padding: 0;
     text-align: center;}
 
@@ -345,14 +344,14 @@ section{
 
   .container .box .content a{
     display:inline-block;
-    padding:7px 15px;
+    padding:6px 15px;
     background: var(--second-bg-color);
     border-radius:6rem;
     text-decoration:none;
     color: white;
     font-weight:500;
     font-size: 1.8rem;
-    margin-top:20px;
+    margin-top:15px;
     box-shadow: 5px 2px 5px rgba(0,0,0,.2);
     border: 1px solid rgb(235, 163, 250);}
 
