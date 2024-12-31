@@ -135,7 +135,7 @@ section{
 .home-img img{
     position: relative;
     display: flex; margin: 10px auto;
-    top: 1rem;
+    top: 0.5rem;
     width: 20vw;
     border-radius: 50%;
     box-shadow: 0 0 50px var(--main-color);
@@ -164,7 +164,7 @@ section{
     font-size: 3rem;
     border-radius: 50%;
     color: #da98f4;
-    margin: 8rem 2rem 1rem 0;
+    margin: 6rem 2rem 1rem 0;
     transition: 0.3s ease-in-out;
 }
 
@@ -213,14 +213,14 @@ section{
 }
 @keyframes slide{
   100% {
-        transform: translateY(-300%);
+        transform: translateY(-100%);
     }
 }
 
 .home-content .typewriter ol{
     text-align: center;
     list-style: none;
-    --height: 7.8rem;
+    --height: 6rem;
     height: var(--height);
     line-height: var(--height);
 
@@ -243,7 +243,7 @@ section{
 }
  
 @keyframes cursor{
-    50%{border-color: transparent;}
+    40%{border-color: transparent;}
 }
 
 @keyframes typing{
