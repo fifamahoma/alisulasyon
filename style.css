@@ -78,7 +78,7 @@ section{
     padding: 10rem 9% 10rem;
 }
 .home{
-    min-height: 97vh;
+    min-height: 75vh;
     display: flex;
     background-color: var(--bg-color);
     
@@ -293,12 +293,12 @@ section{
   .container .box{
     position: relative;
     max-width: 400px;
-    max-height: 300px;
+    max-height: 400px;
     padding: 10px;
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
     box-shadow:0 15px 25px rgba(0,0,0,.1);
-    border-radius: 2rem;
-    margin: 4px;
+    border-radius:3rem;
+    margin: 3px;
     color: var(--bg-color);
     box-sizing: border-box;
     overflow: hidden;
@@ -317,8 +317,8 @@ section{
     text-align: center;}
 
     .container .box .content img{
-        width: 6rem;
-        height: 6rem;
+        width: 5rem;
+        height: 5rem;
         border-radius: 50%;
     }
   
@@ -361,29 +361,31 @@ section{
 
 .footer h2{
     font-size: 6rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     color: white;
 }
 
 .footer .social{
     text-align: center;
+    padding-top: 1rem;
     padding-bottom: 5rem;
     color: var(--second-bg-color);
 }
 
 .footer .social a{
+    margin-top: 0.5rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 15rem;
-    height: 15rem;
+    width: 5rem;
+    height: 5rem;
     background: transparent;
     border: 0.2rem solid #da98f4;
-    font-size: 4rem;
+    font-size: 3rem;
     border-radius: 50%;
     color: #da98f4;
-    margin: 3rem 3rem 0;
+    margin: 0 3rem 1rem 0;
     transition: 0.3s ease-in-out;
 }
 
