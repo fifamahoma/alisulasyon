@@ -297,8 +297,8 @@ section{
     padding: 10px;
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
     box-shadow:0 15px 25px rgba(0,0,0,.1);
-    border-radius:1rem;
-    margin: 3px;
+    border-radius: 2rem;
+    margin: 4px;
     color: var(--bg-color);
     box-sizing: border-box;
     overflow: hidden;
@@ -317,8 +317,8 @@ section{
     text-align: center;}
 
     .container .box .content img{
-        width: 5rem;
-        height: 5rem;
+        width: 6rem;
+        height: 6rem;
         border-radius: 50%;
     }
   
