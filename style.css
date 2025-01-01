@@ -137,19 +137,24 @@ section{
 }
 
 .home-content .typewriter ol li{
-    animation: slide-up 12s infinite;
+    animation: slide-up 8s infinite;
 }
 @keyframes slide-up{
-  0%, 30%{
+  0%, 20%{
     transform: translateY(0%);
   }
-  35%, 65% {
+  25%, 45% {
     transform: translateY(-100%);
   }
-  70%, 100% {
+  50%, 70% {
     transform: translateY(-200%);
   }
-  
+  75%, 95% {
+    transform: translateY(-300%);
+  }
+  95%, 100% {
+    transform: translateY(-300%);
+  }
 }
 
 .home-content .typewriter ol{
@@ -169,9 +174,7 @@ section{
     -webkit-background-clip: text;
 
     white-space: nowrap;
-   
 }
-
 
 .home-content h3{
     color: var(--main-color);
