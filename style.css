@@ -55,9 +55,10 @@ body{
     transform: scale(1.1);
 }
 .navbar a{
-    font-size: 4rem;
+    font-size: 2rem;
     color: white;
-    margin-left: 4rem;
+    margin-left: 1rem;
+    padding-right: 3rem;
     font-weight: 500;
     transition: 0.3s ease-in-out;
     border-bottom: 3px solid transparent;
@@ -105,7 +106,7 @@ section{
 .home-img img{
     position: relative;
     display: flex; margin: 10px auto;
-    top: 0.5rem;
+    top: 0.4rem;
     width: 20vw;
     border-radius: 50%;
     box-shadow: 0 0 50px var(--main-color);
@@ -283,12 +284,11 @@ section{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 0,5rem;
-    justify-content:center;}
+    justify-content: center;
+}
   
   .container .box{
     position: relative;
-    max-width: 400px;
-    max-height: 400px;
     padding: 10px;
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
     box-shadow:0 15px 25px rgba(0,0,0,.1);
@@ -434,16 +434,21 @@ section{
     
 }
 
-@media(max-width:1285px){
+@media(min-width:1320px){
     html{
         font-size: 55%;
     }
-    .services-container{
+
+    .container{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         align-items: center;
-    }
+        gap: 0;
+        justify-content: center;}
+    
 }
+
+
 @media(max-width:991px){
     header{
         padding: 2rem 3%;
@@ -455,6 +460,13 @@ section{
         padding-bottom: 7rem;
         
     }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0,5rem;
+        justify-content:center;}
+
     .footer{
         padding: 1rem 3%;
     }
@@ -514,6 +526,14 @@ section{
     .services h2{
         margin-bottom: 3rem;
     }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0,5rem;
+        justify-content:center;}
+
     .services-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
