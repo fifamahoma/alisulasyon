@@ -532,7 +532,12 @@ section{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
         gap: 0,5rem;
-        justify-content:center;}
+        justify-content:center;
+    }
+    
+    .container .box{
+            min-height: 32rem;
+    }
 
     .services-container{
         display: grid;
