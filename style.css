@@ -288,7 +288,6 @@ section{
 }
   
   .container .box{
-    min-height: 28rem;
     position: relative;
     padding: 10px;
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
@@ -296,7 +295,7 @@ section{
     border-radius:3rem;
     margin: 3px;
     color: var(--bg-color);
-    
+    box-sizing: border-box;
     overflow: hidden;
     text-align: center;}
   
@@ -536,6 +535,9 @@ section{
         gap: 0,5rem;
         justify-content:center;
     }
+
+    .container .box{
+    min-height: 28rem;}
     
     .services-container{
         display: grid;
