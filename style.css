@@ -467,6 +467,9 @@ section{
         gap: 0,5rem;
         justify-content:center;}
 
+    .container .box{
+    min-height: 28rem;}
+
     .footer{
         padding: 1rem 3%;
     }
@@ -535,9 +538,6 @@ section{
         gap: 0,5rem;
         justify-content:center;
     }
-
-    .container .box{
-    min-height: 28rem;}
     
     .services-container{
         display: grid;
