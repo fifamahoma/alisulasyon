@@ -447,7 +447,7 @@ section{
         justify-content: center;}
 
      .container .box{
-    min-height: 28rem;}
+    min-height: 24rem;}
 }
 
 @media(max-width:991px){
