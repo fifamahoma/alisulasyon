@@ -288,7 +288,7 @@ section{
 }
   
   .container .box{
-    min-height: 32rem;
+    min-height: 28rem;
     position: relative;
     padding: 10px;
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
@@ -296,7 +296,7 @@ section{
     border-radius:3rem;
     margin: 3px;
     color: var(--bg-color);
-    box-sizing: border-box;
+    
     overflow: hidden;
     text-align: center;}
   
