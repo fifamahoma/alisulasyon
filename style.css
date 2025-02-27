@@ -288,6 +288,7 @@ section{
 }
   
   .container .box{
+    min-height: 30rem;
     position: relative;
     padding: 10px;
     background: linear-gradient(to bottom,#69f9f6,#04fffb);
@@ -448,11 +449,6 @@ section{
     
 }
 
- .container .box{
-            min-height: 29rem;
-    }
-
-
 @media(max-width:991px){
     header{
         padding: 2rem 3%;
@@ -465,10 +461,6 @@ section{
         
     }
 
-     .container .box{
-            min-height: 29rem;
-    }
-    
     .container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -501,10 +493,6 @@ section{
         display: block;
     }
 
-    .container .box{
-            min-height: 29rem;
-    }
-    
     .navbar a{
         display: block;
         font-size: 2rem;
@@ -549,10 +537,6 @@ section{
         justify-content:center;
     }
     
-    .container .box{
-            min-height: 29rem;
-    }
-
     .services-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
