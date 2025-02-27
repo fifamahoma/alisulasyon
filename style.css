@@ -445,7 +445,9 @@ section{
         align-items: center;
         gap: 0;
         justify-content: center;}
-    
+
+     .container .box{
+    min-height: 20rem;}
 }
 
 @media(max-width:991px){
