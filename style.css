@@ -448,6 +448,10 @@ section{
     
 }
 
+ .container .box{
+            min-height: 29rem;
+    }
+
 
 @media(max-width:991px){
     header{
@@ -460,6 +464,11 @@ section{
         padding-bottom: 7rem;
         
     }
+
+     .container .box{
+            min-height: 29rem;
+    }
+    
     .container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -491,6 +500,11 @@ section{
     .navbar.active{
         display: block;
     }
+
+    .container .box{
+            min-height: 29rem;
+    }
+    
     .navbar a{
         display: block;
         font-size: 2rem;
@@ -536,7 +550,7 @@ section{
     }
     
     .container .box{
-            min-height: 28rem;
+            min-height: 29rem;
     }
 
     .services-container{
